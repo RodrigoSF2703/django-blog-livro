@@ -60,7 +60,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
         'USER': 'postgres',
-        'PASSWORD': '@Cruzeiro.com2703',
+        'PASSWORD': '***********',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -137,8 +137,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Configurações emails
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'programatestes2022@gmail.com'
-EMAIL_HOST_PASSWORD = 'cruzeiro2703'
+EMAIL_HOST_USER = '*************'
+EMAIL_HOST_PASSWORD = '********'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
